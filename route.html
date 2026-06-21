@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="fr" data-treatment="editorial">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>L'Itinéraire · Monténégro</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,500;0,600;0,700;1,400&family=Inter:wght@400;500;600&family=Space+Grotesk:wght@400;500;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="../assets/site.css">
+</head>
+<body data-page="route">
+
+  <section class="hero" style="min-height:64svh;" data-screen-label="Route hero">
+    <div class="hero-bg" data-bg="kotorAerial5"></div>
+    <div class="hero-inner">
+      <span class="label">Le Rythme de la Semaine</span>
+      <h1 style="font-size:clamp(40px,7vw,92px);">L'itinéraire</h1>
+      <p class="hero-tag">Deux bases côtières, un détour par les montagnes de l'intérieur et un final au bord du lac — le tout dans un petit pays magnifique. Voici la semaine entière sur une seule carte.</p>
+    </div>
+  </section>
+
+  <section class="section">
+    <div class="wrap-wide">
+      <div class="sec-head reveal">
+        <span class="label">Carte d'ensemble</span>
+        <h2>Des Bouches de Kotor au lac de Skadar.</h2>
+        <p class="lead">Un schéma du parcours — les hébergements, les sites culturels, les tables du soir, et les trois parcours vélo qui les relient.</p>
+      </div>
+
+      <div class="mapwrap reveal">
+        <svg viewBox="0 0 1040 720" role="img" aria-label="Carte stylisée de la côte monténégrine">
+          <rect x="0" y="0" width="1040" height="720" class="map-land"/>
+          <path class="map-water" d="M -10,320 C 150,352 250,452 380,510 S 660,640 920,706 L 1050,752 L -10,752 Z"/>
+          <path class="map-coast" d="M -10,320 C 150,352 250,452 380,510 S 660,640 920,706"/>
+          <path class="map-water" d="M 250,470 C 215,420 198,360 205,300 C 150,280 120,210 150,165 C 180,120 250,118 280,150 C 320,140 352,165 345,205 C 360,250 330,300 288,312 C 286,372 300,430 318,486 Z"/>
+          <path class="map-coast" d="M 250,470 C 215,420 198,360 205,300 C 150,280 120,210 150,165 C 180,120 250,118 280,150 C 320,140 352,165 345,205 C 360,250 330,300 288,312 C 286,372 300,430 318,486"/>
+          <ellipse class="map-lake" cx="770" cy="486" rx="120" ry="62" transform="rotate(-18 770 486)"/>
+          <text x="770" y="492" text-anchor="middle" style="fill:var(--teal);font-size:13px;font-style:italic;font-family:var(--font-display)">Lac de Skadar</text>
+
+          <path class="map-route r-bay" d="M 210,238 C 175,218 168,188 192,170 C 232,150 270,168 262,200 C 256,232 224,250 210,238 Z"/>
+          <path class="map-route r-lov" d="M 360,300 C 330,270 312,250 300,232"/>
+          <path class="map-route r-coast" d="M 452,470 C 510,508 560,540 612,572 C 690,612 740,632 800,654"/>
+
+          <g class="pin stay"><circle cx="248" cy="258" r="6.5"/><text x="248" y="280" text-anchor="middle">Dobrota · Forza Mare</text></g>
+          <g class="pin stay"><circle cx="556" cy="512" r="6.5"/><text x="556" y="534" text-anchor="middle">Sveti Stefan · Aman</text></g>
+
+          <g class="pin culture"><circle cx="205" cy="150" r="5.5"/><text x="205" y="140" text-anchor="middle">Risan</text></g>
+          <g class="pin culture"><circle cx="238" cy="186" r="5.5"/><text x="238" y="176" text-anchor="middle">Perast</text></g>
+          <g class="pin culture"><circle cx="278" cy="232" r="5.5"/><text x="290" y="228" text-anchor="start">Kotor</text></g>
+          <g class="pin culture"><circle cx="178" cy="246" r="5.5"/><text x="170" y="240" text-anchor="end">Tivat ✈</text></g>
+          <g class="pin culture"><circle cx="300" cy="232" r="5.5"/><text x="320" y="250" text-anchor="start">Lovćen</text></g>
+          <g class="pin culture"><circle cx="372" cy="306" r="5.5"/><text x="386" y="310" text-anchor="start">Cetinje</text></g>
+          <g class="pin culture"><circle cx="452" cy="470" r="5.5"/><text x="452" y="458" text-anchor="middle">Budva</text></g>
+          <g class="pin culture"><circle cx="612" cy="572" r="5.5"/><text x="624" y="572" text-anchor="start">Petrovac</text></g>
+          <g class="pin culture"><circle cx="800" cy="654" r="5.5"/><text x="800" y="676" text-anchor="middle">Bar &amp; Stari Bar</text></g>
+          <g class="pin culture"><circle cx="690" cy="452" r="5.5"/><text x="690" y="442" text-anchor="middle">Virpazar</text></g>
+
+          <g class="pin food"><circle cx="296" cy="214" r="5"/></g>
+          <g class="pin food"><circle cx="470" cy="486" r="5"/></g>
+        </svg>
+      </div>
+
+      <div class="map-legend reveal">
+        <span class="lg"><span class="sw" style="background:var(--navy)"></span> Hébergement</span>
+        <span class="lg"><span class="sw" style="background:var(--teal)"></span> Sites culturels</span>
+        <span class="lg"><span class="sw" style="background:var(--gold)"></span> Tables du soir</span>
+        <span class="lg"><span class="sw line" style="background:var(--teal)"></span> Boucle des Bouches de Kotor</span>
+        <span class="lg"><span class="sw line" style="background:var(--gold)"></span> Montée de Lovćen</span>
+        <span class="lg"><span class="sw line" style="background:#5B8C5A"></span> Côte sud</span>
+      </div>
+    </div>
+  </section>
+
+  <!-- TWO BASES BAND -->
+  <section class="band">
+    <div class="wrap">
+      <div class="reveal"><div class="bn">Base 1</div><div class="bk">Jours 1–3 · Bouches de Kotor</div><div class="bd">Dobrota · Kotor · Perast · Lovćen</div></div>
+      <div class="reveal" data-delay="90"><div class="bn">Base 2</div><div class="bk">Jours 4–7 · Riviera de Budva</div><div class="bd">Sveti Stefan · Budva · Bar · Skadar</div></div>
+      <div class="reveal" data-delay="180"><div class="bn">~400 km</div><div class="bk">Total en voiture</div><div class="bd">En autonomie depuis l'aéroport de Tivat</div></div>
+      <div class="reveal" data-delay="270"><div class="bn">215 km</div><div class="bk">À vélo</div><div class="bd">Sur trois parcours</div></div>
+    </div>
+  </section>
+
+  <!-- TIMELINE -->
+  <section class="section">
+    <div class="wrap">
+      <div class="sec-head reveal">
+        <span class="label">Jour par Jour</span>
+        <h2>La semaine en un coup d'œil.</h2>
+      </div>
+      <div class="timeline">
+        <div class="tl-day reveal"><div class="dnum">Jour 1</div><div class="bar"></div><h4>Arrivée &amp; Kotor</h4><p>Bouches de Kotor</p></div>
+        <div class="tl-day reveal" data-delay="70"><div class="dnum">Jour 2</div><div class="bar"></div><h4>Perast &amp; boucle</h4><p>Bouches de Kotor</p></div>
+        <div class="tl-day reveal" data-delay="140"><div class="dnum">Jour 3</div><div class="bar"></div><h4>Montée de Lovćen</h4><p>PN de Lovćen</p></div>
+        <div class="tl-day reveal" data-delay="210"><div class="dnum">Jour 4</div><div class="bar"></div><h4>Cap au sud</h4><p>Riviera de Budva</p></div>
+        <div class="tl-day reveal" data-delay="280"><div class="dnum">Jour 5</div><div class="bar"></div><h4>Sortie en bateau</h4><p>L'Adriatique</p></div>
+        <div class="tl-day reveal" data-delay="350"><div class="dnum">Jour 6</div><div class="bar"></div><h4>Côte &amp; Stari Bar</h4><p>Riviera de Budva</p></div>
+        <div class="tl-day reveal" data-delay="420"><div class="dnum">Jour 7</div><div class="bar"></div><h4>Lac de Skadar</h4><p>PN de Skadar</p></div>
+      </div>
+      <div class="reveal" style="margin-top:48px;">
+        <a class="btn" href="days.html">Voir le détail jour par jour <span class="arr">→</span></a>
+      </div>
+    </div>
+  </section>
+
+  <script src="../assets/site.js"></script>
+</body>
+</html>
